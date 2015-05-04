@@ -11,7 +11,7 @@
                 # To make wordpress .htaccess work
                 AllowOverride FileInfo
                 Order allow,deny
-                allow from all
+                Allow from all
         </Directory>
 
         ScriptAlias /cgi-bin/ /usr/lib/cgi-bin/
