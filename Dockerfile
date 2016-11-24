@@ -4,7 +4,7 @@ MAINTAINER Fernando Mayo <fernando@tutum.co>, Feng Honglin <hfeng@tutum.co>
 # Install packages
 ENV DEBIAN_FRONTEND noninteractive
 RUN apt-get update && \
-  apt-get -y install nano supervisor git apache2 libapache2-mod-php5 mysql-server php5-mysql php5-curl curl pwgen php-apc php5-mcrypt && \
+  apt-get -y install nano supervisor git apache2 libapache2-mod-php mysql-server php-mysql php-curl curl pwgen php-apcu php-mcrypt && \
   echo "ServerName localhost" >> /etc/apache2/apache2.conf
 
 # Add image configuration and scripts
