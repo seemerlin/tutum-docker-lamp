@@ -1,4 +1,4 @@
-FROM ubuntu:trusty
+FROM ubuntu:yakkety
 MAINTAINER Fernando Mayo <fernando@tutum.co>, Feng Honglin <hfeng@tutum.co>
 
 # Install packages
